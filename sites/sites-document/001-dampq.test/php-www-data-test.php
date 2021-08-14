@@ -1,6 +1,6 @@
 <?php
 
-header('Content-Type: text/plain');
+header('Content-Type: text/plain; charset=utf-8');
 define('MYSQL_SERVER', $_ENV['MYSQL_SERVER']);
 define('MYSQL_USER', $_ENV['MYSQL_USER_EXAMPLE']);
 define('MYSQL_PASSWORD', $_ENV['MYSQL_PASSWORD_EXAMPLE']);
